@@ -63,6 +63,7 @@ const state = {
           if (checkForWinner()) {
             state.gameFinished = true;
             drawMessage("You won!");
+            return
           }
           if (checkForDraw()) {
             drawMessage("It's a draw!");
