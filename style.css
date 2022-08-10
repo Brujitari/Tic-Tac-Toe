@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    max-height: 100%vh;
   }
   
   .game {
@@ -14,7 +13,6 @@
     margin: auto;
     position: relative;
     width: 920px;
-    margin-top: 25px;
   }
   
   .symbol {
